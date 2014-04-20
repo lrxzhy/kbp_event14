@@ -101,6 +101,10 @@ public class Parser {
 		}
 	}
 
+	public void match(){
+		
+	}
+	
 	public static void main(String[] args) throws IOException {
 		for (String conj : conjunctionList) {
 			conjunction.add(conj);
@@ -121,6 +125,7 @@ public class Parser {
 		bw.close();
 	}
 
+	//recursively parse all text files in a directory
 	public void parseDocumentList(final File folder) throws IOException {
 		for (final File fileEntry : folder.listFiles()) {
 			if (fileEntry.isDirectory()) {

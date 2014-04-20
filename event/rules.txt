@@ -1,0 +1,42 @@
+Business.Declare-Bankrupcy+Org, declared bankrupcy, left, ORG
+Business.Declare-Bankrupcy+Org, Chapter 11, left, ORG
+Business.Declare-Bankrupcy+Org, bankrupcy, left, ORG
+Business.Merge-Org+Org, merger, left, ORG
+Business.Merge-Org+Org, merger, right, ORG
+Conflict.Attack+Attacker, attack, left, PER
+Conflict.Attack+Attacker, attack, left, ORG
+Conflict.Attack+Attacker, attack, left, GPE
+Conflict.Attack+Instrument, attack, left, NP
+Conflict.Attack+Target, attack, right, PER
+Conflict.Attack+Target, attack, right, ORG
+Conflict.Demonstrate+Entity[2], demonstrate, right, PER
+Conflict.Demonstrate+Entity[2], demonstrate, right, ORG
+Contact.Meet+Entity[3], met, right, PER
+Contact.Meet+Entity[3], met, left, PER
+Contact.Meet+Entity[3], met, left, ORG
+Contact.Meet+Entity[3], met, right, ORG
+#Contact.Phone-Write, ...
+Life.Marry+Person, married, left, PER
+Life.Marry+Person, married, right, PER
+Life.Divorce+Person, married, left, PER
+Life.Divorce+Person, divorced, right, PER
+Life.Divorce+Person, divorced, left, PER
+Life.Die+Victim, killed, right, PER
+Life.Die+Agent[1], killed, left, PER
+Life.Die+Agent[1], killed, left, ORG
+Life.Die+Agent[1], killed, left, GPE
+#Movement.Transport
+#
+# These would be better specified using KBA rule format
+Personnel.Start-Position+Entity[1], hired, left, ORG
+Personnel.Start-Position+Entity[1], hired, left, GPE
+Personnel.Start-Position+Person, hired, right, PER
+Personnel.End-Position+Person, left, left, PER
+Personnel.End-Position+Entity[1], left, right, ORG
+Personnel.Nominate+Person, nominated, left, PER
+Personnel.Nominate+Agent[2], nominated, right, ORG
+Personnel.Elect+Person, elected, left, PER
+#Transaction.Transfer-Ownership
+#Transaction.Transfer-Money
+Justice.Arrest-Jail+Person, arrested, left, PER
+Justice.Arrest-Agent+Agent[1], arrested, left, ORG

@@ -25,3 +25,7 @@ local.properties
 
 # Locally stored "Eclipse launch configurations"
 *.launch
+
+# StanfordNLP NER classifiers
+*.gz
+*.prop
