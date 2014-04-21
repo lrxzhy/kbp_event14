@@ -11,7 +11,7 @@ https://docs.google.com/document/d/1NRrRciiPMEZfqdjXEljyzWn-Zlw-jEm0PBqT-t1owJ0/
 
 https://docs.google.com/file/d/0Bxdmkxb6KWZnV0wwcU14cFBsTjQ/edit
 
-# TODO
+### TODO
 
   1. expand an NN to multiple consecutive words of the same POS tag or NER tag
   
