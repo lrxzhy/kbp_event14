@@ -1,0 +1,1 @@
+output of each document will be generated here with same name
