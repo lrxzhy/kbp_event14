@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -25,8 +26,14 @@ import edu.stanford.nlp.pipeline.*;
 
 import java.util.*;
 
+/**
+ * NER's found:
+ * 
+ * PERSON DATE TIME DURATION ORGANIZATION NUMBER LOCATION MONEY MISC PERCENT ORDINAL SET
+ * 
+ */
 public class Parser {
-	
+
 	HashSet<String>					verbs						= new HashSet<String>();
 	HashSet<String>					ner							= new HashSet<String>();
 	HashSet<String>					sentenceList		= new HashSet<String>();
@@ -35,24 +42,33 @@ public class Parser {
 			"when", "whenever", "where", "wherever", "while", "both", "either", "neither", "whether", "eventhough" };
 	static HashSet<String>	conjunction			= new HashSet<String>();
 
+	StanfordCoreNLP					pipeline;
+
+	// props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref");
+
 	void parseDocument(File file) throws IOException {
 
+		// if (!file.getName().contains("bolt-eng-DF-200-192446-3810563"))
+		// return;
+
+		String docId = file.getName().substring(0, file.getName().length() - 4);
+
+		PrintWriter printWriter;
+		printWriter = new PrintWriter(new File("./output/" + docId));
+
+		System.out.println(docId);
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		String line;
 		StringBuilder textTemp = new StringBuilder();
 		while ((line = br.readLine()) != null) {
 			textTemp.append(line);
-			System.out.println(line);
+			// System.out.println(line);
 		}
 		br.close();
 		String text = textTemp.toString();
 
 		// creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and
 		// coreference resolution
-		Properties props = new Properties();
-		// props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref");
-		props.put("annotators", "tokenize,cleanxml, ssplit, pos,lemma,ner");
-		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
 		// read some text in the text variable
 
@@ -68,43 +84,113 @@ public class Parser {
 		List<CoreMap> sentences = document.get(SentencesAnnotation.class);
 		for (CoreMap sentence : sentences) { // for each sentence
 
-			// traversing the words in the current sentence
-			// a CoreLabel is a CoreMap with additional token-specific methods
-			StringBuilder temp = new StringBuilder();
-			String prev = "";
-			for (int i = 0; i < sentence.get(TokensAnnotation.class).size(); i++) { // for each token
-				// CoreLabel token
-				CoreLabel token = sentence.get(TokensAnnotation.class).get(i);
-				// this is the text of the token
-				String word = token.get(TextAnnotation.class);
-				// this is the POS tag of the token
-				String pos = token.get(PartOfSpeechAnnotation.class);
-				// this is the NER label of the token
-				String ne = token.get(NamedEntityTagAnnotation.class);
-				if (!ne.equals("O")) { // it is not named entity
-					if (!prev.equals(ne))
-						temp.append(" " + ne);
-					prev = ne;
-				} else if (pos.startsWith("VB") || conjunction.contains(word.toLowerCase())) {
-					temp.append(" " + word);
-				} else if (pos.equals(word)) {// punctuation
-					temp.append(word);
-				} else if (pos.startsWith("NN")) {
-					if (!prev.startsWith("NN"))
-						temp.append(" NP");
-					prev = "NN";
-				} else
-					prev = "";
+			// for each rule
+			for (Rule rule : RuleIO.getRuleList()) {
 
+				// traversing the words in the current sentence
+				// a CoreLabel is a CoreMap with additional token-specific methods
+				StringBuilder temp = new StringBuilder();
+				String prev = "";
+				// for (int i = 0; i < sentence.get(TokensAnnotation.class).size(); i++) { // for each token
+				// // CoreLabel token
+				// CoreLabel token = sentence.get(TokensAnnotation.class).get(i);
+				// // this is the text of the token
+				// String word = token.get(TextAnnotation.class);
+				// // this is the POS tag of the token
+				// String pos = token.get(PartOfSpeechAnnotation.class);
+				// // this is the NER label of the token
+				// String ner = token.get(NamedEntityTagAnnotation.class);
+				// if (!ner.equals("O")) { // it is not named entity
+				// if (!prev.equals(ner))
+				// temp.append(" " + ner);
+				// prev = ner;
+				// } else if (pos.startsWith("VB") || conjunction.contains(word.toLowerCase())) {
+				// temp.append(" " + word);
+				// } else if (pos.equals(word)) {// punctuation
+				// temp.append(word);
+				// } else if (pos.startsWith("NN")) {
+				// if (!prev.startsWith("NN"))
+				// temp.append(" NP");
+				// prev = "NN";
+				// } else
+				// prev = "";
+				//
+				// }
+
+				match(printWriter, docId, sentence, (TwoArgRule) rule);
+
+				sentenceList.add(file.getName() + "\t" + temp.toString().trim() + "\t" + sentence.toString());
 			}
-			sentenceList.add(file.getName() + "\t" + temp.toString().trim() + "\t" + sentence.toString());
 		}
 	}
 
-	public void match(){
-		
+	public void match(PrintWriter printWriter, String docId, CoreMap sentence, TwoArgRule tar) {
+		List<CoreLabel> listTokens = sentence.get(TokensAnnotation.class);
+		for (int i = 0; i < listTokens.size(); i++) { // for each token
+			CoreLabel token = listTokens.get(i);
+			// System.out.println(token);
+			String word = token.get(TextAnnotation.class);
+
+			if (word.equalsIgnoreCase(tar.lookupWord)) {
+				CoreLabel cl = scan(sentence, i, tar);
+				if (cl != null) {
+					System.out.println("#==> " + cl);
+					OutputRecord or = new OutputRecord(docId, tar.eventType, tar.extractionTitle, cl.word(),
+							sentenceToStr(sentence));
+					// System.out.println(or);
+					// sentenceToStr(sentence);
+					printWriter.println(or);
+				}
+			}
+		}
+		// System.out.println("============================================");
 	}
-	
+
+	private String sentenceToStr(CoreMap sentence) {
+		List<CoreLabel> listTokens = sentence.get(TokensAnnotation.class);
+		String tempStr = "";
+		for (int i = 0; i < listTokens.size(); i++) { // for each token
+			CoreLabel token = listTokens.get(i);
+			// System.out.println(token);
+			String word = token.get(TextAnnotation.class);
+			// this is the POS tag of the token
+			String pos = token.get(PartOfSpeechAnnotation.class);
+			// this is the NER label of the token
+			String ner = token.get(NamedEntityTagAnnotation.class);
+			tempStr += word + "[" + ner + "_" + pos + "] ";
+		}
+		return tempStr;
+	}
+
+	// scan left or right from index according to rule
+	private CoreLabel scan(CoreMap sentence, int index, TwoArgRule tar) {
+		List<CoreLabel> listTokens = sentence.get(TokensAnnotation.class);
+		int beginIndex = index;
+		int endIndex = (tar.direction.equals(Rule.LEFT)) ? 0 : listTokens.size();
+
+		int tempIndex = beginIndex;
+		boolean found = false;
+		while (tempIndex != endIndex && !found) {
+			if (tempIndex != beginIndex) {
+				// skip first index (anchor word itself)
+				CoreLabel token = listTokens.get(tempIndex);
+
+				String pos = token.get(PartOfSpeechAnnotation.class);
+				String ner = token.get(NamedEntityTagAnnotation.class);
+
+				if (ner.contains(tar.extractionType) || pos.contains(tar.extractionType))
+					return token;
+			}
+
+			if (tar.direction.equals(Rule.LEFT))
+				tempIndex--;
+			else
+				tempIndex++;
+		}
+
+		return null;
+	}
+
 	public static void main(String[] args) throws IOException {
 		for (String conj : conjunctionList) {
 			conjunction.add(conj);
@@ -113,7 +199,8 @@ public class Parser {
 		Parser parser = new Parser();
 
 		// parser.parseDocument(new File("temp.txt"));
-		parser.parseDocumentList(new File("/Users/morteza/Dropbox/workspaces/eclipse/kepler/event/corpus/data"));
+		parser.parseDocumentList(new File(
+				"/Users/morteza/Dropbox/workspaces/eclipse/kepler/kbp_event14/event/corpus/data/df"));
 		// parser.readRules("event-rules.txt");
 
 		BufferedWriter bw = new BufferedWriter(new FileWriter(new File("sentences.txt")));
@@ -125,7 +212,13 @@ public class Parser {
 		bw.close();
 	}
 
-	//recursively parse all text files in a directory
+	public Parser() {
+		Properties props = new Properties();
+		props.put("annotators", "tokenize,cleanxml, ssplit, pos,lemma,ner");
+		pipeline = new StanfordCoreNLP(props);
+	}
+
+	// recursively parse all text files in a directory
 	public void parseDocumentList(final File folder) throws IOException {
 		for (final File fileEntry : folder.listFiles()) {
 			if (fileEntry.isDirectory()) {

@@ -1,42 +1,55 @@
-Business.Declare-Bankrupcy+Org, declared bankrupcy, left, ORG
-Business.Declare-Bankrupcy+Org, Chapter 11, left, ORG
-Business.Declare-Bankrupcy+Org, bankrupcy, left, ORG
-Business.Merge-Org+Org, merger, left, ORG
-Business.Merge-Org+Org, merger, right, ORG
-Conflict.Attack+Attacker, attack, left, PER
-Conflict.Attack+Attacker, attack, left, ORG
-Conflict.Attack+Attacker, attack, left, GPE
-Conflict.Attack+Instrument, attack, left, NP
-Conflict.Attack+Target, attack, right, PER
-Conflict.Attack+Target, attack, right, ORG
-Conflict.Demonstrate+Entity[2], demonstrate, right, PER
-Conflict.Demonstrate+Entity[2], demonstrate, right, ORG
-Contact.Meet+Entity[3], met, right, PER
-Contact.Meet+Entity[3], met, left, PER
-Contact.Meet+Entity[3], met, left, ORG
-Contact.Meet+Entity[3], met, right, ORG
+Business.Declare-Bankrupcy+ORGANIZATION, declared bankrupcy, left, ORGANIZATION
+Business.Declare-Bankrupcy+ORGANIZATION, Chapter 11, left, ORGANIZATION
+Business.Declare-Bankrupcy+ORGANIZATION, bankrupcy, left, ORGANIZATION
+Business.Merge-ORGANIZATION+ORGANIZATION, merger, left, ORGANIZATION
+Business.Merge-ORGANIZATION+ORGANIZATION, merger, right, ORGANIZATION
+Conflict.Attack+Attacker, attack, left, PERSON
+Conflict.Attack+Attacker, attack, left, ORGANIZATION
+#Conflict.Attack+Attacker, attack, left, GPE
+#Conflict.Attack+Instrument, attack, left, NP
+Conflict.Attack+Target, attack, right, PERSON
+Conflict.Attack+Target, attack, right, ORGANIZATION
+Conflict.Demonstrate+Entity[2], demonstrate, right, PERSON
+Conflict.Demonstrate+Entity[2], demonstrate, right, ORGANIZATION
+Contact.Meet+Entity[3], met, right, PERSON
+Contact.Meet+Entity[3], met, left, PERSON
+Contact.Meet+Entity[3], met, left, ORGANIZATION
+Contact.Meet+Entity[3], met, right, ORGANIZATION
 #Contact.Phone-Write, ...
-Life.Marry+Person, married, left, PER
-Life.Marry+Person, married, right, PER
-Life.Divorce+Person, married, left, PER
-Life.Divorce+Person, divorced, right, PER
-Life.Divorce+Person, divorced, left, PER
-Life.Die+Victim, killed, right, PER
-Life.Die+Agent[1], killed, left, PER
-Life.Die+Agent[1], killed, left, ORG
-Life.Die+Agent[1], killed, left, GPE
+Life.Marry+Person, married, left,PERSON
+Life.Marry+Person, married, right,PERSON
+Life.Divorce+Person, married, left,PERSON
+Life.Divorce+Person, divorced, right,PERSON
+Life.Divorce+Person, divorced, left,PERSON
+Life.Die+Victim, killed, right,PERSON
+Life.Die+Agent[1], killed, left,PERSON
+Life.Die+Agent[1], killed, left, ORGANIZATION
+#Life.Die+Agent[1], killed, left, GPE
 #Movement.Transport
 #
 # These would be better specified using KBA rule format
-Personnel.Start-Position+Entity[1], hired, left, ORG
-Personnel.Start-Position+Entity[1], hired, left, GPE
-Personnel.Start-Position+Person, hired, right, PER
-Personnel.End-Position+Person, left, left, PER
-Personnel.End-Position+Entity[1], left, right, ORG
-Personnel.Nominate+Person, nominated, left, PER
-Personnel.Nominate+Agent[2], nominated, right, ORG
-Personnel.Elect+Person, elected, left, PER
+Personnel.Start-Position+Entity[1], hired, left, ORGANIZATION
+#Personnel.Start-Position+Entity[1], hired, left, GPE
+Personnel.Start-Position+Person, hired, right,PERSON
+Personnel.End-Position+Person, left, left,PERSON
+Personnel.End-Position+Entity[1], left, right, ORGANIZATION
+Personnel.Nominate+Person, nominated, left,PERSON
+Personnel.Nominate+Agent[2], nominated, right, ORGANIZATION
+Personnel.Elect+Person, elected, left,PERSON
 #Transaction.Transfer-Ownership
 #Transaction.Transfer-Money
-Justice.Arrest-Jail+Person, arrested, left, PER
-Justice.Arrest-Agent+Agent[1], arrested, left, ORG
+Justice.Arrest-Jail+Person, arrested, left,PERSON
+Justice.Arrest-Agent+Agent[1], arrested, left, ORGANIZATION
+#Contact.Phone-Write+Entity[3],called,left,NP
+Contact.Phone-Write+Entity[3],called,right,ORGANIZATION
+#Contact.Phone-Write+Entity[3],called,right,NP
+#Contact.Phone-Write+Entity[3],emailed,left,NP
+Contact.Phone-Write+Entity[3],emailed,right,ORGANIZATION
+#Contact.Phone-Write+Entity[3],emailed,right,NP
+# PER stalking PER : what type of event is this?
+Justice.Convict+Defendant,convicted,left,PERSON
+#Justice.Convict+Crime,convicted of,left,V
+Justice.Charge-Indict+Defendant,accused,left,PERSON
+#Justice.Charge-Indict+Crime,accused of,left,V
+Personnel.Elect+Person,elected,left,PERSON 
+#
