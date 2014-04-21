@@ -29,3 +29,6 @@ local.properties
 # StanfordNLP NER classifiers
 *.gz
 *.prop
+
+# output directory
+output/
