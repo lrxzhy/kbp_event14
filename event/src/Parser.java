@@ -1,17 +1,14 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Properties;
-import java.util.Scanner;
 
 import edu.stanford.nlp.ling.CoreAnnotations.NamedEntityTagAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
@@ -20,11 +17,8 @@ import edu.stanford.nlp.ling.CoreAnnotations.TextAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.trees.EnglishGrammaticalRelations.PunctuationGRAnnotation;
+import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
-import edu.stanford.nlp.pipeline.*;
-
-import java.util.*;
 
 /**
  * NER's found:
@@ -46,7 +40,7 @@ public class Parser {
 
 	// props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref");
 
-	void parseDocument(File file) throws IOException {
+	void parseDocument(File file) throws Exception {
 
 		// if (!file.getName().contains("bolt-eng-DF-200-192446-3810563"))
 		// return;
@@ -54,7 +48,16 @@ public class Parser {
 		String docId = file.getName().substring(0, file.getName().length() - 4);
 
 		PrintWriter printWriter;
-		printWriter = new PrintWriter(new File("./output/" + docId));
+		// printWriter = new PrintWriter(new File("./output/" + docId) );
+		// printWriter = new PrintWriter(new OutputStreamWriter(
+		// csocket.getOutputStream(), StandardCharsets.UTF_8), true);
+
+		printWriter = new PrintWriter(new OutputStreamWriter(new FileOutputStream("./output/" + docId, false), "UTF-8"));
+
+		printWriter.print('\uFEFF'); // BOM
+		
+		// printWriter.println("# -----");
+		printWriter.flush();
 
 		System.out.println(docId);
 		BufferedReader br = new BufferedReader(new FileReader(file));
@@ -122,6 +125,8 @@ public class Parser {
 				sentenceList.add(file.getName() + "\t" + temp.toString().trim() + "\t" + sentence.toString());
 			}
 		}
+		printWriter.close();
+
 	}
 
 	public void match(PrintWriter printWriter, String docId, CoreMap sentence, TwoArgRule tar) {
@@ -136,10 +141,12 @@ public class Parser {
 				if (cl != null) {
 					System.out.println("#==> " + cl);
 					OutputRecord or = new OutputRecord(docId, tar.eventType, tar.extractionTitle, cl.word(),
-							sentenceToStr(sentence));
+							sentenceToStr(sentence), tar);
 					// System.out.println(or);
 					// sentenceToStr(sentence);
-					printWriter.println(or);
+				//	printWriter.println("# __________");
+					printWriter.println(or.toString());
+					// System.out.println(or.toString());
 				}
 			}
 		}
@@ -191,7 +198,8 @@ public class Parser {
 		return null;
 	}
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws Exception {
+		// System.setProperty("file.encoding", "UTF8");
 		for (String conj : conjunctionList) {
 			conjunction.add(conj);
 		}
@@ -199,8 +207,8 @@ public class Parser {
 		Parser parser = new Parser();
 
 		// parser.parseDocument(new File("temp.txt"));
-		parser.parseDocumentList(new File(
-				"/Users/morteza/Dropbox/workspaces/eclipse/kepler/kbp_event14/event/corpus/data/df"));
+		parser
+				.parseDocumentList(new File("/Users/morteza/Dropbox/workspaces/eclipse/kepler/kbp_event14/event/corpus/data/"));
 		// parser.readRules("event-rules.txt");
 
 		BufferedWriter bw = new BufferedWriter(new FileWriter(new File("sentences.txt")));
@@ -219,7 +227,7 @@ public class Parser {
 	}
 
 	// recursively parse all text files in a directory
-	public void parseDocumentList(final File folder) throws IOException {
+	public void parseDocumentList(final File folder) throws Exception {
 		for (final File fileEntry : folder.listFiles()) {
 			if (fileEntry.isDirectory()) {
 				parseDocumentList(fileEntry);

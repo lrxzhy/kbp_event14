@@ -2,6 +2,8 @@ import java.io.File;
 import java.util.Scanner;
 
 public class TwoArgRule extends Rule {
+	
+	String ruleStr;
 
 	String	eventType;
 	String	lookupWord;			// synonym of the term to find
@@ -10,6 +12,7 @@ public class TwoArgRule extends Rule {
 	String	extractionType;
 
 	public TwoArgRule(String ruleStr) {
+		this.ruleStr = ruleStr;
 		String[] arguments = ruleStr.split(",\\s?|\\+");
 		this.eventType = arguments[0];
 		this.extractionTitle = arguments[1];
@@ -19,7 +22,11 @@ public class TwoArgRule extends Rule {
 	}
 
 	public static void main(String[] args) throws Exception {
-RuleIO.getRuleList();
+		RuleIO.getRuleList();
 	}
 
+	@Override
+	public String toString() {
+		return ruleStr;
+	}
 }
