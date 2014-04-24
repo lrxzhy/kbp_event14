@@ -1,0 +1,883 @@
+PERSON replied\v was\v LOCATION NP
+PERSON has\v been\v, and is\v NP
+PERSON said\v is\v and raping\v NP
+PERSON stealing\v winning\v NP
+PERSON had\v been\v acquitted\v NP
+PERSON, NUMBER,`` NP
+ORGANIZATION has\v indicted\v NP
+PERSON forced\v NP
+ORGANIZATION manages\v keep\v NP
+ORGANIZATION, and NUMBER NP
+ORGANIZATION confer\v NP
+ORGANIZATION says\v are\v NUMBER NP
+PERSON did\v, and treats\v PERSON NP
+PERSON, and LOCATION LOCATION NP
+PERSON and did\v kill\v PERSON, NP
+PERSON, NUMBER, was\v jailed\v for DURATION and NP
+PERSON are\v doing\v 's\v NP
+PERSON, ORGANIZATION NP
+PERSON expresses\v but NP
+ORGANIZATION continued\v NP
+PERSON is\v trying\v rewrite\v NP
+PERSON loses\v NP
+ORGANIZATION Gobbling\v NP
+PERSON got\v MISC NP
+PERSON did\v was\v hit\v NP
+PERSON file\v NP
+PERSON and ORGANIZATION LOCATION NP
+ORGANIZATION ORGANIZATION NP
+PERSON being\v,, NP
+ORGANIZATION, thank\v NP
+PERSON is\v positioned\v be\v reelected\v DURATION NP
+ORGANIZATION, HELPED\v NP
+PERSON is\v NUMBER NP
+PERSON having\v committed\v NP
+PERSON finds\v NP
+PERSON,, PERSON are\v being\v abused\v NP
+PERSON take\v NP
+PERSON wants\v put\v NP
+ORGANIZATION So if declared\v NP
+ORGANIZATION butt\v NP
+PERSON or and NP
+ORGANIZATION are\v increasing\v NP
+PERSON and open\v NP
+PERSON or gets\v elected\v, are\v planning\v leaving\v NP
+PERSON stayed\v NP
+ORGANIZATION have\v NP
+PERSON are\v NP
+PERSON, fear\v is\v NP
+ORGANIZATION, expects\v help\v insure\v NUMBER NP
+PERSON, LOCATION picked\v 's\v NP
+PERSON DATE, PERSON represented\v NP
+ORGANIZATION and closed\v NP
+PERSON, but NP
+PERSON and are\v NP
+PERSON, DATE, PERSON did\v participate\v NP
+PERSON`` NP
+ORGANIZATION lie\v prevent\v MISC NP
+ORGANIZATION but doing\v so 's\v created\v NP
+PERSON voiced\v NP
+ORGANIZATION shared\v NP
+ORGANIZATION took\v MONEY NP
+ORGANIZATION DATE, PERSON was\v NP
+PERSON asked\v LOCATION NP
+PERSON tarring\v NP
+ORGANIZATION has\v sanctioned\v NP
+PERSON, had\v NP
+ORGANIZATION`` NP
+PERSON, seems\v be\v NP
+PERSON decided\v NP
+PERSON when was\v NP
+PERSON appears\v have\v NP
+PERSON and DATE and NP
+ORGANIZATION DATE agreed\v cover\v NP
+PERSON agreed\v open\v NP
+PERSON and had\v published\v NP
+PERSON began\v advertise\v MISC and NP
+PERSON has\v been\v propelled\v NP
+PERSON was\v visiting\v LOCATION NP
+PERSON and PERSON and agree\v NP
+PERSON grant\v NP
+PERSON makes\v NP
+ORGANIZATION, DURATION NP
+PERSON, ORGANIZATION, PERSON,, NP
+PERSON DATE MISC NP
+ORGANIZATION won\v ORGANIZATION and NP
+PERSON, were\v winning\v NP
+ORGANIZATION and DATE was\v that were\v both NP
+PERSON wrote\v NP
+PERSON, but disagree\v and NP
+PERSON is\v get\v NP
+PERSON takes\v MISC NP
+PERSON was\v sentenced\v NP
+PERSON and PERSON have\v bridge\v widening\v NP
+PERSON, have\v go\v edit\v NP
+PERSON celebrating\v after getting\v that NP
+ORGANIZATION proposed\v NP
+PERSON, is\v charged\v NP
+PERSON, while MISC are\v favoring\v NP
+PERSON had\v NP
+PERSON hints\v:`` NUMBER NP
+ORGANIZATION is\v NUMBER NP
+PERSON, predicted\v NP
+PERSON succeeded\v deflecting\v LOCATION NP
+PERSON said\v that`` NP
+PERSON is\v but got\v NP
+ORGANIZATION LOCATION and engaged\v NP
+PERSON DATE, is\v NP
+PERSON, ordered\v that be\v arrested\v for distributing\v NP
+PERSON NP
+ORGANIZATION DATE and ORGANIZATION NP
+PERSON that framed\v``'' and so let\v PERSON get\v NP
+PERSON for NP
+PERSON,, 's\v that jumps\v NP
+PERSON and came\v LOCATION DATE If was\v DATE, was\v NP
+PERSON was\v convicted\v NP
+ORGANIZATION have\v been\v`` NP
+PERSON pardoned\v NP
+PERSON and, NP
+PERSON took\v NP
+ORGANIZATION is\v projecting\v starts\v sell\v MISC NP
+PERSON told\v MISC NP
+ORGANIZATION NUMBER yeah\v are\v NP
+PERSON and decided\v stay\v changed\v NP
+PERSON so NP
+ORGANIZATION until are\v put\v pine\v NP
+PERSON, PERSON and and and`` 'm\v NP
+PERSON DATE NP
+PERSON PERSON, does\v seem\v or bring\v NP
+PERSON ORDINAL NP
+PERSON, NUMBER, NP
+PERSON, and NP
+PERSON knows\v than MISC NP
+PERSON did\v go\v for NP
+PERSON told\v ORGANIZATION NP
+PERSON be\v ORDINAL NP
+ORGANIZATION blocking\v NP
+ORGANIZATION sucks\v cause\v 's\v NP
+ORGANIZATION shows\v MISC NP
+PERSON and ORGANIZATION NP
+PERSON, but that does\v mean\v that that NP
+PERSON disappear\v, but DATE wants\v return\v NP
+ORGANIZATION has\v had\v NP
+ORGANIZATION sponsored\v DATE ORGANIZATION closed\v NP
+PERSON seek\v NP
+PERSON NUMBER NUMBER NP
+ORGANIZATION visit\v NP
+PERSON, LOCATION NP
+PERSON, adding\v NP
+ORGANIZATION felt\v that NP
+PERSON have\v beat\v either, and be\v ORDINAL NP
+PERSON, was\v sentenced\v NP
+ORGANIZATION need\v NP
+ORGANIZATION-RRB- ORGANIZATION-LRB- NP
+ORGANIZATION have\v accused\v NP
+PERSON was\v charged\v NP
+ORGANIZATION LOCATION, ORGANIZATION NP
+PERSON`` Got\v, NP
+PERSON did\v get\v hit\v NP
+PERSON and and NP
+PERSON was\v convicted\v blowing\v NP
+ORGANIZATION does\v issue\v NP
+ORGANIZATION and and MONEY ORGANIZATION NP
+PERSON raise\v NP
+ORGANIZATION,'' PERSON said\v ORGANIZATION`` NUMBER NP
+PERSON does\v think\v, does\v confiscate\v NP
+PERSON, seeking\v NP
+ORGANIZATION put\v that NP
+PERSON ordered\v NP
+ORGANIZATION is\v advertising\v NP
+PERSON, waiting\v till NP
+ORGANIZATION and bring\v NP
+ORGANIZATION got\v NP
+PERSON, has\v said\v NP
+PERSON identified\v NP
+PERSON approaches\v NP
+ORGANIZATION: ORGANIZATION NP
+PERSON when ORGANIZATION wants\v vote\v for NP
+ORGANIZATION DATE has\v brought\v, for ORDINAL NP
+ORGANIZATION reflect\v NP
+ORGANIZATION-LRB--RRB- NP
+ORGANIZATION-LRB- NP
+ORGANIZATION MISC for NP
+ORGANIZATION slapped\v NP
+PERSON Is\v NP
+PERSON: make\v NP
+ORGANIZATION acquiesced\v was\v NP
+PERSON takes\v ORGANIZATION, NP
+PERSON, DATE get\v NP
+PERSON-LRB- and-RRB- be\v MISC NP
+PERSON argued\v increase\v NP
+PERSON, that 's\v NP
+ORGANIZATION that get\v doing\v has\v be\v done\v, NP
+PERSON and say\v represent\v NP
+PERSON is\v NP
+ORGANIZATION plans\v encircle\v LOCATION is\v seen\v NP
+ORGANIZATION, after warned\v blow\v NP
+PERSON, 've\v mentioned\v NP
+ORGANIZATION have\v resulted\v PERSON, NP
+PERSON states\v that NP
+ORGANIZATION comes\v-LRB- after NP
+ORGANIZATION had\v NP
+ORGANIZATION NUMBER were\v extradited\v LOCATION NP
+ORGANIZATION and are\v reporting\v that have\v gotten\v NUMBER NP
+PERSON, but am\v so has\v happened\v and is\v NP
+ORGANIZATION had\v lacked\v NP
+PERSON-LRB- that is\v NP
+PERSON has\v lost\v NP
+ORGANIZATION is\v NP
+PERSON wanted\v NP
+PERSON was\v speaking\v DATE toured\v LOCATION NP
+ORGANIZATION agreed\v pay\v NP
+PERSON is\v yet for NP
+PERSON, screamed\v:`` NP
+PERSON, 's\v say\v PERSON and NP
+PERSON trying\v convince\v NP
+PERSON, heighten\v NP
+ORGANIZATION said\v PERSON NP
+PERSON was\v staring\v NP
+PERSON has\v bragged\v that took\v NP
+PERSON said\v DATE that NP
+PERSON, was\v described\v NP
+PERSON contacted\v ORGANIZATION ask\v NUMBER was\v mentioned\v PERSON wanted\v NP
+PERSON opposes\v NP
+ORGANIZATION had\v DATE refused\v pay\v for NP
+PERSON, DATE is\v NP
+PERSON did\v attend\v NUMBER NP
+ORGANIZATION, if NP
+ORGANIZATION PERSON: Is\v NP
+ORGANIZATION appear\v NP
+PERSON, ORGANIZATION spent\v NP
+PERSON has\v turned\v MISC NP
+PERSON-LRB- and ORDINAL guessing\v did\v act\v when had\v NP
+ORGANIZATION NUMBER NP
+PERSON, dressed\v NP
+PERSON have\v said\v is\v continuing\v hold\v NP
+PERSON is\v running\v NP
+PERSON was\v nabbed\v be\v NP
+PERSON, and LOCATION NP
+PERSON said\v DATE has\v proposed\v NP
+ORGANIZATION go\v NP
+PERSON, feel\v so for PERSON NP
+PERSON LOCATION, where NP
+ORGANIZATION, was\v accused\v NP
+PERSON has\v responded\v NP
+PERSON is\v, MISC forging\v NP
+PERSON was\v questioned\v NP
+PERSON said\v, was\v subjected\v DURATION questioning\v NP
+PERSON and did\v NP
+PERSON excluded\v NP
+PERSON said\v was\v impressed\v MISC NP
+PERSON, MISC NP
+PERSON tried\v persuade\v marry\v and NP
+PERSON,, NP
+PERSON was\v DATE got\v NP
+PERSON, was\v sentenced\v DURATION NP
+PERSON survive\v TIME, but have\v NP
+ORGANIZATION committed\v MONEY NP
+ORGANIZATION and NUMBER NP
+PERSON did\v NP
+ORGANIZATION-RRB-, LOCATION, PERSON, LOCATION,, PERSON, NP
+ORGANIZATION DATE, when was\v NUMBER, organized\v NP
+PERSON thats\v NP
+PERSON that allow\v PERSON NP
+PERSON got\v NP
+PERSON said\v,`` told\v, PERSON, NP
+ORGANIZATION is\v doing\v NP
+PERSON melding\v NP
+PERSON and were\v designed\v reflect\v NP
+PERSON, lived\v LOCATION, got\v married\v after entering\v LOCATION DATE, filed\v NP
+ORGANIZATION`` catch\v NP
+PERSON, died\v DATE after NP
+ORGANIZATION is\v lying\v and taking\v NP
+PERSON was\v arrested\v DATE LOCATION after being\v placed\v NP
+PERSON argued\v that NP
+ORGANIZATION have\v earned\v MONEY NP
+PERSON, unless count\v NP
+ORGANIZATION ORDINAL NP
+PERSON shaking\v NP
+ORGANIZATION offered\v move\v NUMBER NP
+PERSON and LOCATION NP
+PERSON after being\v called\v investigate\v NP
+PERSON, according\v MISC NP
+ORGANIZATION is\v owned\v MISC NP
+ORGANIZATION indicate\v NP
+PERSON won\v NP
+PERSON described\v regards\v NP
+PERSON was\v addressing\v NP
+PERSON And NP
+PERSON got\v NUMBER NP
+ORGANIZATION said\v that saving\v and NP
+PERSON be\v sacrifice\v PERCENT NP
+ORGANIZATION be\v NP
+ORGANIZATION, aiming\v MISC NP
+PERSON, DATE, losing\v NP
+ORGANIZATION, had\v approve\v NP
+ORGANIZATION reports\v MONEY DATE NP
+ORGANIZATION says\v expects\v bump\v NP
+PERSON`` So is\v wanted\v LOCATION for NP
+PERSON says\v:`` observes\v that NP
+PERSON wrote\v that ORGANIZATION had\v acted\v NP
+PERSON-RRB- and have\v both received\v NP
+PERSON kidnap\v LOCATION, and NP
+ORGANIZATION-LRB--RRB- have\v NP
+ORGANIZATION that NP
+ORGANIZATION when NP
+PERSON announced\v DATE that had\v pardoned\v NP
+PERSON has\v nicked\v be\v selected\v NP
+ORGANIZATION was\v but pulled\v and PERSON NP
+PERSON, is\v DATE NP
+PERSON-LRB- pictured\v-RRB- left\v NP
+PERSON has\v said\v transferred\v than MONEY PERSON NP
+PERSON died\v NP
+PERSON hang\v NP
+PERSON admit\v NP
+ORGANIZATION is\v when comes\v performing\v NP
+PERSON-RRB- have\v tried\v keep\v NP
+PERSON LOCATION NP
+PERSON has\v taken\v NP
+ORGANIZATION decided\v that was\v NP
+PERSON and set\v ensure\v that NP
+PERSON or NP
+PERSON gave\v LOCATION DATE, DURATION NP
+ORGANIZATION restructured\v NP
+PERSON said\v and NP
+PERSON nor demonstrate\v NP
+PERSON has\v pleaded\v and claims\v is\v being\v persecuted\v for MISC NP
+PERSON appointed\v NP
+PERSON,, have\v been\v NP
+PERSON and have\v seen\v NP
+ORGANIZATION DATE NP
+ORGANIZATION find\v NP
+ORGANIZATION LOCATION Keep\v Discovering\v: NP
+PERSON has\v failed\v so NP
+PERSON, PERSON help\v assure\v NP
+PERSON, left\v dam\v GET\v, is\v DATE NP
+PERSON remain\v LOCATION until DATE, NP
+PERSON returning\v for NP
+PERSON help\v realize\v PERSON NP
+PERSON or commit\v NP
+PERSON wins\v NP
+PERSON leading\v NUMBER NP
+PERSON campaigned\v LOCATION NP
+PERSON saying\v did\v NP
+PERSON, was\v accused\v performing\v NP
+PERSON represents\v, NP
+PERSON did\v ignore\v NP
+PERSON was\v, or NP
+PERSON did\v carry\v NUMBER NP
+ORGANIZATION, and did\v take\v NP
+ORGANIZATION was\v interviewed\v PERSON said\v that NP
+PERSON replied\v: NP
+PERSON wanted\v say\v NP
+ORGANIZATION ORGANIZATION DATE fell\v after ORGANIZATION challenged\v NP
+ORGANIZATION suffer\v NP
+PERSON DATE urged\v NP
+PERSON,, is\v NP
+PERSON has\v attempted\v wrestle\v NP
+PERSON, was\v known\v PERSON, was\v born\v NUMBER, DATE, PERSON and NP
+PERSON delivered\v NP
+PERSON was\v NUMBER NUMBER NP
+PERSON ORGANIZATION have\v been\v threatened\v, NP
+ORGANIZATION gets\v and NP
+PERSON agrees\v`` know\v NP
+PERSON, LOCATION wanted\v NP
+ORGANIZATION declared\v NP
+ORGANIZATION said\v so NP
+ORGANIZATION did\v LOCATION DATE does\v cost\v NP
+PERSON is\v doing\v NP
+ORGANIZATION, DATE-LRB- NP
+PERSON has\v been\v convicted\v NP
+PERSON, LOCATION and has\v-LRB- or had\v-RRB- NP
+ORGANIZATION-RRB- PERSON told\v NP
+PERSON governed\v if had\v won\v PERSON NUMBER NP
+ORGANIZATION and educated\v or 's\v, or NP
+PERSON-RRB-, got\v NUMBER NP
+ORGANIZATION or have\v gone\v NP
+ORGANIZATION DATE, NP
+PERSON is\v living\v, 's\v been\v violated\v, NP
+PERSON added\v:`` NP
+ORGANIZATION NUMBER rejected\v was\v bundled\v NP
+ORGANIZATION decided\v go\v NP
+ORGANIZATION, said\v PERSON NP
+ORGANIZATION but have\v happened\v NP
+ORGANIZATION uses\v NP
+ORGANIZATION MONEY NP
+PERSON,,,, NP
+PERSON has\v been\v held\v LOCATION NP
+PERSON, was\v extradited\v LOCATION LOCATION face\v NUMBER NP
+ORGANIZATION wants\v vote\v for NP
+ORGANIZATION, DATE Averting\v`` NP
+PERSON is\v MISC NP
+PERSON had\v been\v reported\v missing\v LOCATION NP
+PERSON PERSON NP
+PERSON, LOCATION,, and PERSON, NP
+PERSON be\v, NP
+PERSON ORDINAL and NP
+PERSON is\v, has\v emerged\v NP
+ORGANIZATION has\v NUMBER NP
+ORGANIZATION have\v been\v harmed\v if had\v NP
+PERSON is\v, NP
+ORGANIZATION build\v NP
+PERSON, are\v NP
+PERSON tried\v auction\v PERSON vacated\v NP
+ORGANIZATION NUMBER be\v joined\v NP
+PERSON, tries\v continue\v NP
+ORGANIZATION said\v so feel\v have\v NP
+ORGANIZATION and accounted\v for PERCENT NP
+ORGANIZATION ORGANIZATION go\v NP
+PERSON, but trust\v running\v NP
+ORGANIZATION, used\v NP
+PERSON, and had\v DATE NP
+ORGANIZATION had\v gone\v NP
+PERSON, have\v made\v NP
+ORGANIZATION was\v saved\v NP
+ORGANIZATION were\v NP
+PERSON is\v so get\v NP
+PERSON, saying\v NP
+ORGANIZATION but find\v wanting\v NP
+ORGANIZATION has\v continue\v operate\v'' does\v``'' NP
+PERSON NUMBER if had\v proceeded\v NP
+PERSON, left\v NP
+ORGANIZATION scored\v NP
+ORGANIZATION pay\v NP
+PERSON confessed\v NP
+PERSON does\v, NP
+PERSON looked\v NP
+PERSON was\v NP
+PERSON Touts\v NP
+PERSON promised\v marry\v NP
+ORGANIZATION afford\v keep\v ORDINAL NP
+PERSON and succeeded\v deepening\v NP
+PERSON leads\v NP
+PERSON if get\v NP
+PERSON, while NP
+PERSON 's\v NP
+PERSON was\v confirmed\v start\v ORDINAL NP
+ORGANIZATION is\v supposed\v be\v, NP
+ORGANIZATION communicate\v: NP
+ORGANIZATION for that NP
+PERSON, LOCATION made\v realize\v NP
+PERSON releasing\v NP
+PERSON was\v fired\v, and so, and 's\v fit\v be\v NP
+PERSON lose.By\v NP
+ORGANIZATION bring\v NP
+PERSON observes\v that NP
+PERSON-RRB- says\v seem\v NP
+ORGANIZATION, welcomed\v NP
+PERSON and make\v do\v NP
+ORGANIZATION, for NP
+PERSON had\v been\v accused\v PERSON NP
+PERSON received\v NP
+PERSON stole\v NP
+ORGANIZATION attest\v NP
+ORGANIZATION promised\v bring\vTO LOCATION NUMBER freaking\v NP
+PERSON does\v provide\v NUMBER NP
+PERSON did\v do\v'' and`` allow\v happen\v'' NUMBER are\v NP
+ORGANIZATION and LOCATION NP
+PERSON,, fail\v being\v NP
+PERSON were\v going\v confront\v LOCATION, NP
+PERSON`` Surrender\v'' NP
+ORGANIZATION got\v NUMBER NUMBER NP
+PERSON did\v have\v NP
+PERSON, drugged\v NP
+PERSON received\v MISC NP
+ORGANIZATION did\v attmept\v make\v that NP
+ORGANIZATION PERSON believes\v that MISC NP
+PERSON spooked\v NP
+PERSON, NUMBER, left\v NP
+PERSON, NP
+ORGANIZATION stepped\v and innovated\v NP
+PERSON-LRB- LOCATION-RRB-, NP
+PERSON that NP
+PERSON survived\v NP
+PERSON was\v stalking\v PERSON NP
+ORGANIZATION, NP
+ORGANIZATION-RRB- LOCATION NP
+PERSON told\v NP
+PERSON, for NP
+PERSON endorses\v for NP
+PERSON, regarded\v win\v ORGANIZATION NP
+ORGANIZATION, and makes\v NP
+PERSON said\v was\v airlifted\v NP
+PERSON and LOCATION is\v NP
+ORGANIZATION, was\v DATE and NP
+PERSON be\v NP
+PERSON porking\v DURATION NP
+ORGANIZATION told\v NP
+PERSON is\v considered\v NP
+ORGANIZATION but MISC NP
+PERSON become\v NP
+PERSON said\v LOCATION NP
+ORGANIZATION, MISC NP
+PERSON wants\v NP
+PERSON has\v been\v NP
+PERSON was\v went\v watch\v NP
+PERSON, are\v saying\v that PERSON NP
+PERSON, is\v NP
+PERSON, called\v express\v NP
+PERSON and, DATE, NP
+PERSON is\v believed\v have\v NP
+ORGANIZATION need\v quit\v supporting\v NP
+PERSON, had\v beenconvicted\v DATE attempted\v NP
+ORGANIZATION ORGANIZATION and stated\v NUMBER NP
+ORGANIZATION NUMBER ORGANIZATION NP
+PERSON was\v saying\v was\v NP
+PERSON, explained\v that had\v been\v bear\v NP
+ORGANIZATION have\v scored\v`` NP
+PERSON: NP
+PERSON-LRB- and NP
+PERSON sounds\v PERSON NP
+ORGANIZATION, shelved\v NP
+PERSON did\v jump\v NP
+PERSON that leads\v NP
+PERSON is\v trigger\v than ORGANIZATION Posted\v NP
+PERSON deliver\v NP
+PERSON disappointed\v that looks\v be\v appointed\v NP
+PERSON, but discount\v if had\v NP
+PERSON put\v,, ORGANIZATION-LRB- PERSON-RRB-'' engages\v, NP
+PERSON is\v trigger\v than NP
+ORGANIZATION owed\v NP
+PERSON did\v testify\v NP
+ORGANIZATION PERSON was\v airlifted\v NP
+PERSON be\v for DURATION NP
+PERSON reverted\v NP
+PERSON beating\v NP
+PERSON was\v indicted\v NP
+ORGANIZATION is\v siad\v be\v NP
+PERSON but that does\v mean\v vote\v for MISC, NP
+PERSON urged\v NP
+PERSON killed\v, or allowed\v PERSON be\v murdered\v ORDINAL NP
+ORGANIZATION that allows\v continue\v practice\v, but NP
+PERSON-LRB- DATE NP
+PERSON draws\v NP
+PERSON is\v selected\v send\v NP
+PERSON triangulated\v update\v DATE NP
+PERSON, picked\v ORDINAL NP
+PERSON, LOCATION, sounded\v NP
+PERSON: ORGANIZATION NP
+PERSON ORGANIZATION NP
+PERSON LOCATION DATE stop\v creating\v NP
+ORGANIZATION Confirms\v That NP
+PERSON, and doing\v that, was\v NUMBER NP
+PERSON, running\v for DURATION NP
+PERSON and have\v pointed\v that NP
+PERSON win\v and if has\v cheat\v or prevent\v NP
+PERSON or build\v NP
+PERSON pointed\v NP
+PERSON jumped\v NP
+PERSON, serve\v MISC NP
+ORGANIZATION merges\v NP
+ORGANIZATION has\v DURATION, NP
+ORGANIZATION arrested\v, for NP
+PERSON helped\v conduct\v NP
+PERSON was\v referring\v NP
+PERSON,, said\v NP
+PERSON, find\v NP
+PERSON used\v NP
+PERSON, had\v been\v accused\v embezzling\v NUMBER LOCATION NP
+ORGANIZATION is\v looking\v for NP
+ORGANIZATION was\v NP
+ORGANIZATION LOCATION,, NP
+ORGANIZATION lost\v NP
+PERSON were\v NP
+PERSON has\v NP
+PERSON gave\v MONEY PERSON, LOCATION,, was\v convicted\v NP
+PERSON and NP
+PERSON, DURATION NP
+PERSON was\v detained\v DATE NP
+PERSON, MISC ORGANIZATION, NP
+PERSON became\v NP
+PERSON said\v had\v helped\v and encouraged\v overcoming\v NP
+ORGANIZATION, ensure\v that PERSON, neither, become\v NP
+PERSON, exhibit\v NP
+PERSON is\v Abusing\v NP
+ORGANIZATION has\v authorized\v NP
+ORGANIZATION says\v NP
+PERSON, ORDINAL NUMBER NP
+PERSON, have\v followed\v NP
+PERSON was\v indicted\v until DURATION after NP
+PERSON says\v have\v given\v NP
+ORGANIZATION wants\v NP
+PERSON has\v said\v or done\v NP
+ORGANIZATION MISC NP
+PERSON where NP
+ORGANIZATION is\v NUMBER NUMBER PERSON NP
+PERSON, sought\v NP
+PERSON, NUMBER, DATE NP
+ORGANIZATION does\v have\v NP
+PERSON play\v NP
+PERSON like\v see\v NP
+PERSON is\v survived\v NP
+ORGANIZATION tell\v given\v DURATION MONEY NP
+ORGANIZATION,`` NP
+PERSON urged\v PERSON NP
+ORGANIZATION after gets\v NP
+PERSON asks\v for NP
+ORGANIZATION LOCATION, NP
+ORGANIZATION SET NP
+PERSON researched\v agree\v NP
+PERSON 's\v, and does\v sound\v, but trying\v get\v,, and NP
+PERSON did\v pay\v MONEY NP
+ORGANIZATION-LRB--RRB- and NP
+PERSON did\v PERSON has\v continued\v NP
+ORGANIZATION, DATE, NP
+ORGANIZATION being\v NP
+PERSON said\v, adding\v that`` NP
+ORGANIZATION are\v take\v NP
+PERSON while LOCATION, and was\v kidnapped\v MISC NP
+PERSON leads\v NUMBER: NP
+PERSON when were\v NP
+PERSON and, mused\v whether NP
+ORGANIZATION decided\v was\v NP
+PERSON found\v that`` emerging\v NP
+PERSON hit\v NP
+PERSON be\v and NP
+ORGANIZATION merged\v DATE want\v merge\v NP
+PERSON NUMBER wants\v get\v NP
+PERSON, prevent\v NUMBER NP
+PERSON is\v NUMBER, making\v NP
+PERSON, ORGANIZATION ruled\v that`` NP
+PERSON and, following\v DATE NP
+ORGANIZATION was\v and that NP
+PERSON shot\v NP
+PERSON, LOCATION DATE NP
+PERSON have\v so NP
+PERSON NUMBER NUMBER MISC has\v stopped\v farming\v DATE-LRB- leaving\v NUMBER NUMBER tilling\v NP
+ORGANIZATION, although has\v donated\v NP
+PERSON, is\v be\v held\v DATE please\v call\v NP
+ORGANIZATION plunder\v and NP
+PERSON: Is\v NP
+PERSON ORGANIZATION has\v filed\v NP
+ORGANIZATION-RRB- DURATION NP
+ORGANIZATION,'' PERSON actuallyoozed\v ORGANIZATION NP
+PERSON has\v called\v NP
+ORGANIZATION holds\v NP
+PERSON, lost\v NP
+PERSON, ORGANIZATION While yet while DATE, see\v so MISC draw\v NP
+PERSON say\v was\v prepared\v meet\v and hold\v NP
+ORGANIZATION and, are\v NP
+PERSON, says\v, NP
+ORGANIZATION, lending\v NP
+ORGANIZATION, PERSON and ORGANIZATION: NP
+PERSON is\v trying\v cut\v NP
+PERSON DATE after NP
+ORGANIZATION estimates\v that MISC have\v NP
+PERSON hates\v NP
+PERSON MONEY NP
+ORGANIZATION recalled\v NP
+PERSON is\v calling\v`` NP
+PERSON sounds\v NP
+PERSON grew\v saturated\v NP
+ORGANIZATION or NP
+PERSON had\v forgotten\v NP
+ORGANIZATION, LOCATION TIME NP
+PERSON and killed\v that NP
+PERSON has\v been\v indicted\v for NUMBER NP
+PERSON,, and show\v NP
+ORGANIZATION floundering\v NP
+PERSON offers\v LOCATION NP
+PERSON do\v like\v, but knows\v NP
+PERSON, and name\v NP
+ORGANIZATION has\v refused\v NP
+PERSON,, said\v NUMBER were\v`` NP
+PERSON has\v launched\v DURATION`` NP
+ORGANIZATION talks\v NUMBER NP
+PERSON has\v DATE called\v PERSON`` NP
+PERSON joins\v NP
+PERSON had\v been\v for NP
+PERSON said\v LOCATION that NP
+ORGANIZATION, have\v than NUMBER NP
+ORGANIZATION, so 's\v NP
+PERSON was\v ORDINAL or NP
+PERSON has\v do\v than NP
+PERSON was\v, ORGANIZATION were\v forced\v move\v NP
+ORGANIZATION ORGANIZATION Hit\v NP
+PERSON: ORGANIZATION think\v that NP
+PERSON be\v embarrassed\v NP
+ORGANIZATION benefited\v NP
+ORGANIZATION refuses\v fund\v NP
+ORGANIZATION was\v PERSON NP
+PERSON, was\v going\v LOCATION,, was\v kidnapped\v NP
+PERSON is\v trying\v rectify\v NP
+PERSON for getting\v NP
+PERSON:`` Do\v NP
+ORGANIZATION for NP
+ORGANIZATION did\v show\v NP
+PERSON DATE went\v NP
+PERSON represents\v that MISC NP
+PERSON MISC, ORDINAL NP
+ORGANIZATION-RRB- MISC NP
+PERSON, says\v that while NP
+PERSON are\v accept\v NP
+PERSON did\v''-LRB- NP
+ORGANIZATION, but 'm\v NP
+PERSON thinks\v NP
+PERSON-LRB- DATE-RRB-, NP
+ORGANIZATION has\v stated\v that hold\v NP
+PERSON and fill\v NP
+PERSON, chloroforming\v and stuffing\v NP
+PERSON is\v NUMBER gave\v NP
+PERSON is\v wanted\v LOCATION for NP
+ORGANIZATION organized\v NP
+PERSON had\v been\v ostracized\v NP
+PERSON requested\v NP
+PERSON, be\v-RRB-, do\v know\v if agree\v NP
+ORGANIZATION have\v kept\v NP
+PERSON DATE that if did\v come\v MONEY, call\v NP
+PERSON needs\v be\v regulated\v, PERSON NP
+PERSON DATE and NP
+PERSON, did\v know\v is\v NP
+ORGANIZATION has\v linked\v MISC NUMBER NP
+ORGANIZATION reported\v citing\v NP
+PERSON DURATION NP
+PERSON said\v, be\v NP
+ORGANIZATION promised\v keep\v NP
+PERSON is\v``'' wonder\v Left\v be.She\v wants\v socialized\v NP
+PERSON, NUMBER, is\v accused\v embezzling\v MONEY DURATION NP
+PERSON, ORGANIZATION-LRB- NP
+PERSON, was\v born\v DATE, and NP
+PERSON, PERSON, and so, is\v, entertain\v deem\v for NP
+PERSON cough\v having\v sell\v NP
+PERSON got\v divorced\v PERSON and married\v NP
+PERSON and observed\v NP
+PERSON, known\v PERSON, had\v alsofaced\v NP
+PERSON have\v admitted\v NP
+PERSON offered\v PERSON MONEY, NP
+PERSON evidenced\v NP
+PERSON were\v fall\v, NP
+ORGANIZATION seems\v be\v doing\v, than ORGANIZATION, and did\v take\v NP
+PERSON, were\v for NUMBER,, yet, disagree\v PERSON NP
+PERSON, was\v LOCATION NP
+PERSON happened\v fashioned\v NP
+PERSON DATE be\v reelected\v, based\v NP
+PERSON, wielded\v NP
+PERSON consider\v NP
+PERSON did\v do\v-LRB- think\v did\v, but NP
+ORGANIZATION, or MISC, choose\v abjure\v NP
+PERSON was\v elected\v ORDINAL NP
+PERSON shared\v, NUMBER that exploited\v see\v NP
+PERSON sought\v MISC NP
+PERSON threw\v NP
+ORGANIZATION, did\v for DURATION, and was\v and NP
+ORGANIZATION defend\v NP
+PERSON earned\v PERCENT NP
+PERSON,, do\v think\v grab\v NP
+PERSON is\v hemmed\v DATE and NP
+PERSON DURATION try\v and take\v NP
+ORGANIZATION ORGANIZATION said\v was\v pleased\v NP
+PERSON was\v confirmed\v NP
+ORGANIZATION does\v, NP
+ORGANIZATION did\v accept\v NP
+ORGANIZATION, so be\v versed\v NP
+ORGANIZATION fare\v DATE NP
+PERSON calls\v for NP
+PERSON, was\v NP
+ORGANIZATION when were\v taken\v NP
+PERSON and have\v been\v freed\v ORGANIZATION and cleared\v NP
+PERSON show\v NP
+PERSON, that NP
+PERSON NUMBER, NP
+PERSON MISC NP
+ORGANIZATION wrote\v NP
+ORGANIZATION carried\v NP
+ORGANIZATION decided\v NP
+PERSON, MISC and ORDINAL NP
+ORGANIZATION ORGANIZATION and: DATE, ORGANIZATION was\v NP
+PERSON raises\v NP
+ORGANIZATION when was\v diagnosed\v NP
+PERSON adopted\v NP
+PERSON have\v had\v NP
+PERSON, spent\v MONEY NP
+ORGANIZATION LOCATION is\v NP
+ORGANIZATION TIME NP
+ORGANIZATION or LOCATION unless were\v going\v that NP
+PERSON did\v do\v NP
+PERSON, served\v NUMBER DURATION NP
+ORGANIZATION was\v shutting\v NP
+ORGANIZATION and NP
+PERSON DATE that if did\v come\v MONEY NP
+PERSON gets\v NP
+PERSON, remains\v NP
+PERSON says\v 'm\v NP
+ORGANIZATION,, face\v NP
+PERSON tried\v bridge\v PERSON NP
+PERSON SET NP
+ORGANIZATION and sellâ\v MONEY Did\v ORGANIZATION need\v NP
+PERSON has\v facing\v NP
+ORGANIZATION safekeeping\v for NP
+PERSON fought\v NP
+PERSON have\v donated\v NP
+PERSON has\v been\v given\v and served\v DURATION NP
+PERSON is\v besting\v NP
+PERSON appeared\v regain\v NP
+PERSON pray\v, PERSON, NP
+ORGANIZATION and that 's\v saw\v NP
+PERSON, was\v elected\v PERCENT NP
+ORGANIZATION used\v have\v NP
+PERSON screwed\v NP
+ORGANIZATION, LOCATION-LRB- ORGANIZATION-RRB- NP
+PERSON had\v`` saved\v'' ORGANIZATION have\v gone\v NP
+PERSON has\v been\v convince\v NP
+PERSON start\v ORDINAL and NP
+PERSON said\v NP
+PERSON tells\v NP
+PERSON and gives\v NP
+PERSON face\v NP
+ORGANIZATION, but NP
+ORGANIZATION did\v raise\v NP
+PERSON-RRB- stated\v`` that NP
+PERSON have\v won\v if PERSON did\v siphon\v NP
+PERSON get\v NP
+PERSON tried\v escape\v-LRB- NP
+ORGANIZATION wants\v help\v sell\v NP
+PERSON has\v given\v was\v DATE NP
+ORGANIZATION were\v eliminated\v, have\v gained\v NP
+ORGANIZATION NP
+PERSON stick\v NP
+PERSON get\v laid\v NP
+PERSON, was\v poached\v LOCATION ORGANIZATION NP
+PERSON teaches\v ORGANIZATION and served\v NP
+PERSON said\v after NUMBER: stress\v that have\v carried\v NP
+PERSON DATE Lose\v MONEY ORGANIZATION NP
+PERSON sounds\v Do\v forget\v is\v NP
+ORGANIZATION announced\v NP
+PERSON,-LRB- both-RRB-,, NP
+PERSON ran\v MISC NP
+PERSON paid\v NP
+ORGANIZATION came\v after NUMBER and said\v was\v NUMBER but NP
+ORGANIZATION needs\v improve\v NP
+ORGANIZATION has\v NP
+PERSON help\v calm\v NP
+PERSON PERSON, brought\v NP
+PERSON said\v:`` 's\v either/or\v, 's\v NP
+PERSON has\v inspired\v NP
+ORGANIZATION allow\v NP
+ORGANIZATION overturns\v PERSON, set\v NP
+PERSON said\v DATE had\v raised\v MISC NP
+PERSON, Based\v NP
+PERSON, was\v accused\v sponsoring\v NP
+ORGANIZATION and if that was\v included\v NP
+PERSON, MISC 'm\v, means\v NP
+PERSON, has\v bested\v NP
+PERSON spends\v NP
+PERSON and kept\v changing\v NP
+PERSON-LRB- NP
+ORGANIZATION when has\v been\v NP
+ORGANIZATION sentenced\v DURATION NP
+ORGANIZATION,,, NP
+ORGANIZATION, and NP
+ORGANIZATION contributes\v both NP
+PERSON, ordained\v MISC NP
+PERSON is\v paying\v NP
+PERSON LOCATION, NP
+ORGANIZATION so be\v replaced\v NP
+PERSON judged\v NP
+ORGANIZATION elected\v take\v NP
+ORGANIZATION LOCATION threatened\v blow\v NP
+PERSON gives\v NP
+ORGANIZATION creates\v NP
+PERSON Is\v MONEY NP
+PERSON, smiled\v PERSON read\v NP
+ORGANIZATION trying\v goad\v NP
+ORGANIZATION, expects\v helpinsure\v NUMBER NP
+PERSON made\v NP
+PERSON, DATE, NP
+ORGANIZATION PERCENT NP
+ORGANIZATION faces\v NP
+ORGANIZATION used\v NP
+ORGANIZATION smelled\v NP
+ORGANIZATION became\v NP
+PERSON, has\v spent\v NP
+PERSON had\v died\v and NP
+PERSON, are\v wanted\v LOCATION for NP
+ORGANIZATION-RRB- NP
+PERSON NUMBER ORGANIZATION NP
+ORGANIZATION and both NP
+PERSON answer\v for, that 'm\v disagreeing\v, stands\v NP
+PERSON LOCATION, had\v beenarrested\v DATE after NP
+ORGANIZATION after NP
+PERSON won\v PERSON is\v NP
+PERSON and, were\v arrested\v and jailed\v NP
+PERSON left\v NP
+PERSON, PERSON NP
