@@ -17,4 +17,4 @@ https://docs.google.com/file/d/0Bxdmkxb6KWZnV0wwcU14cFBsTjQ/edit
   
   2. generalize to hierarchical POS tags: e.g. VB or past verb or NN or NNS or the tags that are semantically similar
 
-  3. Take a look at [Semantic role labeling](http://en.wikipedia.org/wiki/Semantic_role_labeling)
+  3. Take a look at [Semantic role labeling](http://en.wikipedia.org/wiki/Semantic_role_labeling) and Daniel Gildea and Daniel Jurafsky's paper [Automatic Labeling of Semantic Roles](http://www.cs.rochester.edu/~gildea/gildea-cl02.pdf)
